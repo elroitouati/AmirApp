@@ -15,7 +15,8 @@
         "backgroundColor": "#2B2D2F",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png"
-      }
+      },
+      "package": "com.elroitouati.bodyweight20m"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +33,7 @@
         }
       ],
       "expo-asset"
-    ]
+    ],
+    "owner": "elroi_touati"
   }
 }

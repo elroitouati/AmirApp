@@ -28,3 +28,15 @@ src/lib/hooks.js       useNow, מסך דלוק
 src/components/        כפתורים, טבעת, bottom sheet, גרף…
 src/screens/           בית, אימון פעיל, היסטוריה
 ```
+
+## בניית APK לאנדרואיד (EAS Build, חינם)
+
+דורש חשבון Expo ו-`EXPO_TOKEN` בסביבה (או `npx eas-cli login`):
+
+```bash
+cd mobile
+npx eas-cli@latest init --non-interactive     # פעם ראשונה בלבד – מקשר את הפרויקט לחשבון
+npx eas-cli@latest build -p android --profile preview --non-interactive
+```
+
+בסוף הבנייה מתקבל קישור להורדת ה-APK.
