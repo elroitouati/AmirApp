@@ -16,7 +16,13 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png"
       },
-      "package": "com.elroitouati.bodyweight20m"
+      "package": "com.elroitouati.bodyweight20m",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -34,6 +40,11 @@
       ],
       "expo-asset"
     ],
-    "owner": "elroi_touati"
+    "owner": "elroi_touati",
+    "extra": {
+      "eas": {
+        "projectId": "63a8cb23-3987-46cc-80ba-433e16222623"
+      }
+    }
   }
 }
