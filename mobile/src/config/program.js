@@ -7,7 +7,7 @@ export const PROGRAM = {
   title: 'תוכנית אימון כוח',
 
   // ימי אימון לפי JavaScript: 0=ראשון, 1=שני, 2=שלישי, 3=רביעי, 4=חמישי, 5=שישי, 6=שבת
-  trainingDays: [1, 3, 5],
+  trainingDays: [0, 3, 5],
 
   // יעד אימונים שבועי
   weeklyGoal: 3,
