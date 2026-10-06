@@ -22,7 +22,7 @@ export const PROGRAM = {
       name: 'שכיבות סמיכה',
       note: 'אחיזה רחבה, ירידה איטית',
       sets: 4,
-      reps: '10',
+      reps: 'מקסימום',
       restSec: 90,
     },
     {
@@ -46,7 +46,7 @@ export const PROGRAM = {
       name: 'דיפס על ספסל',
       note: 'הטיה קלה לפנים',
       sets: 4,
-      reps: '10',
+      reps: '15',
       restSec: 90,
     },
   ],
